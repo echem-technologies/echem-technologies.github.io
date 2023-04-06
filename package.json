@@ -1,6 +1,6 @@
 {
-  "homepage": "https://echem.github.io",
-  "name": "echem",
+  "homepage": "https://echem-technologies.github.io",
+  "name": "echem-technologies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
