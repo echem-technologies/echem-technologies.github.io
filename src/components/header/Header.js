@@ -26,7 +26,7 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <img alt={greeting.username} src={logo} height="100px"/>
+        <img alt={greeting.username} src={logo} height="100px" />
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>

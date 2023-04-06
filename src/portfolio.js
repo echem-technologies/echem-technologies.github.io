@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "We a cutting-edge IT services company that specializes in providing XR-based solutions to clients around the world. With our deep expertise in XR-based technologies and our dedication to excellence, we're confident that we can help you take your business to the next level."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -51,9 +50,7 @@ const skillsSection = {
   title: "What We do",
   subTitle: "FULL STACK DEVELOPMENT FOR XR & WEB STACKS",
   skills: [
-    emoji(
-      "⚡ Develop full scale XR applications"
-    ),
+    emoji("⚡ Develop full scale XR applications"),
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),

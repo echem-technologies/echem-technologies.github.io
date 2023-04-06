@@ -12,7 +12,12 @@ export default function SplashScreen() {
       <div className="splash-animation-container">
         <DisplayLottie animationData={splashScreen.animation} />
       </div>
-      <img alt={greeting.username} src={logo} height="100px" style={{marginBottom: '30px'}}/>
+      <img
+        alt={greeting.username}
+        src={logo}
+        height="100px"
+        style={{marginBottom: "30px"}}
+      />
       <div className="splash-title-container">
         <span className="grey-color"> &lt;</span>
         <span className="splash-title">{greeting.username}</span>
